@@ -1,0 +1,46 @@
+@import "reset.css";
+
+body {
+  background-color: rgb(52, 52, 52);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(230, 230, 230);
+  font-size: 30px;
+  margin: 20px 0px;
+  font-weight: 600;
+}
+
+.chapter {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.chapter-container {
+  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.chapter-container:not(:last-child) {
+  margin-right: 20px;
+}
+
+.chapter-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.chapter-container li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.chapter-container a {
+  text-decoration: none;
+  color: rgb(52, 52, 52);
+}
