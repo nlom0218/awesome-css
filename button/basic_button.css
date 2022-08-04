@@ -1,0 +1,25 @@
+@import "../reset.css";
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: #ef9f84;
+  color: rgb(240, 240, 240);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: background-color 0.4s ease;
+}
+
+button:hover {
+  background-color: #e65a2c;
+  color: rgb(240, 240, 240);
+}
